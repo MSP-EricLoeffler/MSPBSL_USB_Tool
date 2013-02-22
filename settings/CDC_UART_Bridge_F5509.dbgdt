@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1621</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1215</ColumnWidth1>
+        <ColumnWidth2>324</ColumnWidth2>
+        <ColumnWidth3>81</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>221</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <Register/><Find-in-Files><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files><WATCH_1><expressions><item>nCount</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1><Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27897-15178</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-27374-15188</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17504-15782</Identity>
+            <TabName>Breakpoints</TabName>
+            <Factory>Breakpoints</Factory>
+          </Tab>
+        <Tab><Identity>TabID-12094-1880</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5878-15181</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>CDC_UART_Bridge_F5509</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509/USB_API</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509/USB_API/USB_CDC_API</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509/USB_config</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16626-15184</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-28060-22008</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>29</Group><States>2</States><State0>UCSCTL6</State0><State1>UCSCTL7</State1></Session></Tab><Tab><Identity>TabID-21264-22135</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>22</Group><States>5</States><State0>P4DIR</State0><State1>P4SEL</State1><State2>PJDIR</State2><State3>PJOUT</State3><State4>SYSBSLC</State4></Session></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-27559-25360</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-30068-4091</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>4113</SelectionAnchor><SelectionEnd>4113</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>251</VScroll></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart.h</Filename><XPos>0</XPos><YPos>32</YPos><SelStart>1614</SelStart><SelEnd>1614</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\Exe\CDC_UART_Bridge_F5509.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>816</SelStart><SelEnd>816</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USB_config\descriptors.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>2726</SelStart><SelEnd>2913</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\descriptor_output\descriptors.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>4104</SelStart><SelEnd>4104</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USB_config\UsbIsr.c</Filename><XPos>0</XPos><YPos>37</YPos><SelStart>2885</SelStart><SelEnd>2885</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart.c</Filename><XPos>0</XPos><YPos>197</YPos><SelStart>7349</SelStart><SelEnd>7349</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Documents\Clearcase_views\BSL430\msp430_tools\Projects\BSL430\Source Code\Devices\MSP430F5509\BSL430_Low_Level_Init.s43</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>805</SelStart><SelEnd>805</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Kickstart - V5.40\430\inc\intrinsics.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1798</SelStart><SelEnd>1798</SelEnd></Tab><ActiveTab>8</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0273f2a0><key>iaridepm.enu1</key></Toolbar-0273f2a0></Sizes></Row0><Row1><Sizes><Toolbar-0d305ac8><key>430fet1</key></Toolbar-0d305ac8><Toolbar-0d3057a8><key>debuggergui.enu1</key></Toolbar-0d3057a8></Sizes></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>353</Bottom><Right>312</Right><x>-2</x><y>-2</y><xscreen>190</xscreen><yscreen>246</yscreen><sizeHorzCX>118750</sizeHorzCX><sizeHorzCY>212435</sizeHorzCY><sizeVertCX>196250</sizeVertCX><sizeVertCY>306563</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>353</Bottom><Right>447</Right><x>-2</x><y>-2</y><xscreen>190</xscreen><yscreen>246</yscreen><sizeHorzCX>118750</sizeHorzCX><sizeHorzCY>212435</sizeHorzCY><sizeVertCX>280625</sizeVertCX><sizeVertCY>306563</sizeVertCY></Rect></Wnd2></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>-2</Top><Left>445</Left><Bottom>353</Bottom><Right>782</Right><x>445</x><y>-2</y><xscreen>250</xscreen><yscreen>253</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>218480</sizeHorzCY><sizeVertCX>210625</sizeVertCX><sizeVertCY>306563</sizeVertCY></Rect></Wnd3></Sizes></Row1><Row2><Sizes><Wnd4><Rect><Top>-2</Top><Left>780</Left><Bottom>353</Bottom><Right>924</Right><x>780</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>172712</sizeHorzCY><sizeVertCX>90000</sizeVertCX><sizeVertCY>306563</sizeVertCY></Rect></Wnd4></Sizes></Row2></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>538</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>540</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>466321</sizeHorzCY><sizeVertCX>118750</sizeVertCX><sizeVertCY>212435</sizeVertCY></Rect></Wnd0></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>536</Top><Left>-2</Left><Bottom>736</Bottom><Right>1602</Right><x>-2</x><y>536</y><xscreen>1604</xscreen><yscreen>200</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>172712</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>172712</sizeVertCY></Rect></Wnd5></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

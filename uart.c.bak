@@ -1,0 +1,558 @@
+//******************************************************************************
+// Filename:		uart.c
+//
+// Description:		Implementation of UART Bridge
+//					
+//******************************************************************************
+
+#include <MSP430.h>
+#include <descriptors.h>
+
+#include "USB_API/USB_Common/types.h"
+#include "main.h"
+#include "USB_API/USB_Common/types.h"
+#include "USB_API/USB_Common/defMSP430USB.h"
+#include "USB_API/USB_Common/usb.h"            // USB-specific Data Structures
+#include "USB_API/USB_CDC_API/UsbCdc.h"
+#include "uart.h"
+
+#include <string.h>
+//function pointers
+extern VOID *(*USB_RX_memcpy)(VOID * dest, const VOID * source, size_t count);
+extern VOID *(*USB_TX_memcpy)(VOID * dest, const VOID * source, size_t count);
+
+//------------------------------------------------------------------------------
+// Global Variables                                                            
+//------------------------------------------------------------------------------
+extern __no_init tEDB __data16 tInputEndPointDescriptorBlock[];
+extern __no_init tEDB __data16 tOutputEndPointDescriptorBlock[];
+
+//------------------------------------------------------------------------------
+
+// List of standard baudrates
+const struct _BaudrateList{
+    BYTE ucaBR0,  ucaBR1, ucaMCTL;
+}BaudrateList[] = {                                   // CLK 20MHz
+        {0x00,    0x00,   0x00},
+        {0x1A,    0x41,   UCBRS_5},                   // 1.2 kb/s
+        {0x8D,    0x20,   UCBRS_3},                   // 2.4 kb/s
+        {0x46,    0x10,   UCBRS_5},                   // 4.8 kb/s
+        {0x23,    0x08,   UCBRS_3},                   // 9.6 kb/s
+        {0x41,    0x00,   (UCBRF_2+UCOS16)},          // 19.2 kb/s
+        {0x20,    0x00,   (UCBRF_9+UCOS16)},          // 38.4 kb/s
+        {0x15,    0x00,   (UCBRF_11+UCOS16)},         // 57.6 kb/s
+        {0x0A,    0x00,   (UCBRF_14+UCOS16)},         // 115.2 kbit/s
+        {0x05,    0x00,   (UCBRF_7+UCOS16)},          // 230.4 kbit/s
+        {0x02,    0x00,   (UCBRS_6+UCBRF_10+UCOS16)}  // 460.8 kbit/s
+        //{0x15,    0x00,   UCBRS_6}                  // 921.6 kbit/s
+};
+
+// Baudrate indexes
+enum baud{  BAUD_ERROR, BAUD_1200, BAUD_2400, BAUD_4800, BAUD_9600, BAUD_19200,
+    BAUD_38400, BAUD_57600, BAUD_115200, BAUD_230400, BAUD_460800, BAUD_921600};
+
+// Macro gets number of UART channels
+#ifdef UART0_INTFNUM
+    #ifdef UART1_INTFNUM
+        #define UART_NUM_INTERFACES 2
+    #else
+        #define UART_NUM_INTERFACES 1
+    #endif
+#else
+    #ifdef UART1_INTFNUM
+        #define UART_NUM_INTERFACES 1
+    #endif
+#endif
+
+// Rx/Tx Buffers
+#if ( UART_NUM_INTERFACES )
+static struct _UartBridge
+{
+    // indicates which buffer is used by host to receive/transmit data
+    BYTE inpCurrentBufferXY;
+    BYTE outpCurrentBufferXY;
+
+    BYTE txInProgress;
+    UINT rxBufferOffset;
+
+    BYTE txBuffer[TX_BUFFER_SIZE];
+    BYTE rxBuffer[RX_BUFFER_SIZE];
+}UartBridge[UART_NUM_INTERFACES];
+#endif
+
+//Local functions prototypes
+VOID SetupDmaForUart0(VOID);
+VOID SetupDmaForUart1(VOID);
+
+#ifdef UART0_INTFNUM
+//------------------------------------------------------------------------------
+BYTE InitUart0(ULONG lBaudrate)
+{
+      BYTE baudIndex;
+
+    #ifdef __MSP430F550x
+      SelectPin(4,0);                         // Assign P4.0 to UCA0TXD and..
+      SelectPin(4,1);                         // P4.1 to UCA0RXD
+    #endif 
+    #ifdef __MSP430F563x_F663x
+      SelectPin(2,0);                         // Assign P2.0 to UCA0TXD and..
+      SelectPin(2,1);                         // P2.1 to UCA0RXD
+    #endif 
+      
+
+      // configure USCI_A0 UART
+      UCA0CTL1 |= UCSWRST;                    // **Put state machine in reset**
+      UCA0CTL1 |= UCSSEL__SMCLK;              // SMCLK
+
+      switch(lBaudrate)
+      { 
+          #if (RX_BUFFER_SIZE > (1200*SYS_DELAY/1000/8))
+            case 1200:  baudIndex = BAUD_1200;  break;
+          #endif
+          #if (RX_BUFFER_SIZE > (2400*SYS_DELAY/1000/8))
+            case 2400:  baudIndex = BAUD_2400;  break;
+          #endif
+          #if(RX_BUFFER_SIZE > (4800*SYS_DELAY/1000/8))
+            case 4800:  baudIndex = BAUD_4800;  break;
+          #endif            
+          #if(RX_BUFFER_SIZE > (9600*SYS_DELAY/1000/8))
+            case 9600:  baudIndex = BAUD_9600;  break;
+          #endif
+          #if(RX_BUFFER_SIZE > (19200*SYS_DELAY/1000/8))
+            case 19200: baudIndex = BAUD_19200; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (38400*SYS_DELAY/1000/8))
+            case 38400: baudIndex = BAUD_38400; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (57600*SYS_DELAY/1000/8))
+            case 57600: baudIndex = BAUD_57600; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (115200*SYS_DELAY/1000/8))
+            case 115200:baudIndex = BAUD_115200; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (230400*SYS_DELAY/1000/8))
+            case 230400:baudIndex = BAUD_230400; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (460800*SYS_DELAY/1000/8))            
+            case 460800:baudIndex = BAUD_460800; break;
+          #endif
+          //#if(RX_BUFFER_SIZE > (921600*SYS_DELAY/1000/8))   
+            //case 921600:baudIndex = BAUD_921600; break;
+          //#endif
+            default:    baudIndex = BAUD_ERROR; break;
+      }            
+
+      if(baudIndex != BAUD_ERROR)
+      {
+          UCA0BR0 = BaudrateList[baudIndex].ucaBR0;
+          UCA0BR1 = BaudrateList[baudIndex].ucaBR1;
+          UCA0MCTL = BaudrateList[baudIndex].ucaMCTL;
+      }
+      
+      //UCA0STAT |= 0x80;                   // Enable internal loopback
+
+      UCA0CTL1 &= ~UCSWRST;                 // **Initialize USCI state machine**
+      //UCA0IE |= UCRXIE;// + UCTXIE;       // Enable USCI_A0 Rx/Tx interrupt
+
+      SetupDmaForUart0();
+
+      return baudIndex;
+}
+
+/*
+//------------------------------------------------------------------------------
+#pragma vector=USCI_A0_VECTOR
+__interrupt void USCI_A0_ISR(void)
+{
+    switch(__even_in_range(UCA0IV,4))
+    {
+            case 0:break;                         // Vector 0 - no interrupt
+            case 2:break;                         // Vector 2 - RXIFG
+            case 4:				  // Vector 4 - TXIFG
+                __no_operation();                 // used for debugging  
+                break;                             
+            default: break;
+    }
+}
+*/
+
+//------------------------------------------------------------------------------
+VOID SetupDmaForUart0(VOID)
+{        
+        // configure DMA2
+        DMACTL4 |= ROUNDROBIN;// + DMARMWDIS + ENNMI;
+        
+	DMACTL1 |= DMA2TSEL__USCIA0RX;            // triger on USCIA0 receive
+	__data16_write_addr((unsigned short) &DMA2SA,(unsigned long) &UCA0RXBUF);
+	                                          // Source block address
+	__data16_write_addr((unsigned short) &DMA2DA,// Destination single address
+                            (unsigned long) UartBridge[UART0_INTFNUM].rxBuffer);
+	DMA2SZ = RX_BUFFER_SIZE;           	  // Block size
+	DMA2CTL = DMADT_4 + DMADSTINCR_3 + DMALEVEL +
+			DMASBDB + DMAEN + DMAIE;  // Rpt, inc dst, enable
+        
+        // configure DMA3
+        DMACTL1 |= DMA3TSEL__USCIA0TX;            // triger on USCIA0 transmit
+        __data16_write_addr((unsigned short) &DMA3SA,// Source block address
+                            (unsigned long) UartBridge[UART0_INTFNUM].txBuffer);
+        __data16_write_addr((unsigned short) &DMA3DA,(unsigned long) &UCA0TXBUF);
+                                                    // Destination single address  
+        DMA3CTL = DMADT_0 + DMASRCINCR_3 + DMALEVEL +
+                                    DMASBDB + DMAIE;	// inc src, int
+}
+#endif
+
+#if CDC_NUM_INTERFACES >= 2
+#ifdef UART1_INTFNUM
+//------------------------------------------------------------------------------
+BYTE InitUart1(ULONG lBaudrate)
+{
+        BYTE baudIndex;
+        
+    #ifdef __MSP430F550x
+      SelectPin(4,4);                         // Assign P4.4 to UCA0TXD and..
+      SelectPin(4,5);                         // P4.5 to UCA0RXD
+    #endif 
+    #ifdef __MSP430F563x_F663x
+	SelectPin(8,2);                       // Assign P8.2 to UCA1TXD and..
+        SelectPin(8,3);                       // P8.3 to UCA1RXD
+    #endif 
+        
+	// configure USCI_A1 UART
+	UCA1CTL1 |= UCSWRST;                  // **Put state machine in reset**
+	UCA1CTL1 = UCSSEL__SMCLK;             // SMCLK
+
+        switch(lBaudrate)
+        { 
+          #if (RX_BUFFER_SIZE > (1200*SYS_DELAY/1000/8))
+            case 1200:  baudIndex = BAUD_1200;  break;
+          #endif
+          #if (RX_BUFFER_SIZE > (2400*SYS_DELAY/1000/8))
+            case 2400:  baudIndex = BAUD_2400;  break;
+          #endif
+          #if(RX_BUFFER_SIZE > (4800*SYS_DELAY/1000/8))
+            case 4800:  baudIndex = BAUD_4800;  break;
+          #endif            
+          #if(RX_BUFFER_SIZE > (9600*SYS_DELAY/1000/8))
+            case 9600:  baudIndex = BAUD_9600;  break;
+          #endif
+          #if(RX_BUFFER_SIZE > (19200*SYS_DELAY/1000/8))
+            case 19200: baudIndex = BAUD_19200; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (38400*SYS_DELAY/1000/8))
+            case 38400: baudIndex = BAUD_38400; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (57600*SYS_DELAY/1000/8))
+            case 57600: baudIndex = BAUD_57600; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (115200*SYS_DELAY/1000/8))
+            case 115200:baudIndex = BAUD_115200; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (230400*SYS_DELAY/1000/8))
+            case 230400:baudIndex = BAUD_230400; break;
+          #endif
+          #if(RX_BUFFER_SIZE > (460800*SYS_DELAY/1000/8))            
+            case 460800:baudIndex = BAUD_460800; break;
+          #endif
+          //#if(RX_BUFFER_SIZE > (921600*SYS_DELAY/1000/8))   
+            //case 921600:baudIndex = BAUD_921600; break;
+          //#endif
+          default:    baudIndex = BAUD_ERROR; break;
+        }            
+        
+        if(baudIndex != BAUD_ERROR)
+        {
+            UCA1BR0 = BaudrateList[baudIndex].ucaBR0;
+            UCA1BR1 = BaudrateList[baudIndex].ucaBR1;
+            UCA1MCTL = BaudrateList[baudIndex].ucaMCTL;
+        }       
+        
+        //UCA1STAT |= 0x80;                 // Enable internal loopback
+        
+	UCA1CTL1 &= ~UCSWRST;               // **Initialize USCI state machine**
+	//UCA1IE |= UCRXIE + UCTXIE;        // Enable USCI_A1 Rx/Tx interrupt    
+
+        SetupDmaForUart1();
+
+        return baudIndex;
+}
+
+/*
+//------------------------------------------------------------------------------
+#pragma vector=USCI_A1_VECTOR
+__interrupt void USCI_A1_ISR(void)
+{
+	//BYTE tmp = 0x00;
+	switch(__even_in_range(UCA1IV,4))
+	{
+		case 0:break;                     // Vector 0 - no interrupt
+		case 2:                           // Vector 2 - RXIFG
+                    __no_operation();             // used for debugging
+		    break;
+		case 4:				  // Vector 4 - TXIFG
+                    __no_operation();             // used for debugging
+		    break;                             
+		default: break;
+        }
+}
+*/
+
+//------------------------------------------------------------------------------
+VOID SetupDmaForUart1(VOID)
+{        
+        // configure DMA4
+        DMACTL4 |= ROUNDROBIN;// + DMARMWDIS + ENNMI;
+        
+	DMACTL2 |= DMA4TSEL__USCIA1RX;                   // triger on USCIA1 receive
+	__data16_write_addr((unsigned short) &DMA4SA,(unsigned long) &UCA1RXBUF);
+	                                          // Source block address
+	__data16_write_addr((unsigned short) &DMA4DA,// Destination single address
+                            (unsigned long) UartBridge[UART1_INTFNUM].rxBuffer);
+	DMA4SZ = RX_BUFFER_SIZE;           	  // Block size
+	DMA4CTL = DMADT_4 + DMADSTINCR_3 + DMALEVEL +
+			DMASBDB + DMAEN + DMAIE;  // Rpt, inc dst, enable
+        
+        // configure DMA5
+        DMACTL2 |= DMA5TSEL__USCIA1TX;        // triger on USCIA1 transmit
+        __data16_write_addr((unsigned short) &DMA5SA,// Source block address
+                            (unsigned long) UartBridge[UART1_INTFNUM].txBuffer);
+        __data16_write_addr((unsigned short) &DMA5DA,(unsigned long) &UCA1TXBUF);
+                                                    // Destination single address  
+        DMA5CTL = DMADT_0 + DMASRCINCR_3 + DMALEVEL +
+                                    DMASBDB + DMAIE;	// inc src, int
+}
+#endif
+#endif
+
+//------------------------------------------------------------------------------
+// DMA Interrupt Service Routine
+//------------------------------------------------------------------------------
+#pragma vector=DMA_VECTOR
+__interrupt void DMA_ISR(void)
+{
+  switch(__even_in_range(DMAIV,16))
+  {
+    case 0: break;
+    case 2: break;                      // DMA0IFG = DMA Channel 0
+    case 4: break;                      // DMA1IFG = DMA Channel 1
+    case 6:                             // DMA2IFG = DMA Channel 2
+      #ifdef UART0_INTFNUM
+            UartToCdc(UART0_INTFNUM, CDC0_INTFNUM); 
+      #endif
+            break;                      
+    case 8:                             // DMA3IFG = DMA Channel 3
+      #ifdef UART0_INTFNUM
+            UartBridge[UART0_INTFNUM].txInProgress = FALSE;
+            CdcToUart(CDC0_INTFNUM, UART0_INTFNUM);
+      #endif
+    	    break;
+    case 10:                     	// DMA4IFG = DMA Channel 4
+#if CDC_NUM_INTERFACES >= 2
+      #ifdef UART1_INTFNUM
+            UartToCdc(UART1_INTFNUM, CDC1_INTFNUM);
+      #endif
+#endif
+            break;
+    case 12:                    	// DMA5IFG = DMA Channel 5
+#if CDC_NUM_INTERFACES >= 2
+      #ifdef UART1_INTFNUM
+            UartBridge[UART1_INTFNUM].txInProgress = FALSE;
+            CdcToUart(CDC1_INTFNUM, UART1_INTFNUM);
+      #endif
+#endif
+          break;
+    case 14: break;                    	// DMA6IFG = DMA Channel 6
+    case 16: break;                    	// DMA7IFG = DMA Channel 7
+    default: break;
+  }
+}
+
+#if ( UART_NUM_INTERFACES )
+//------------------------------------------------------------------------------
+// Transfers data from the UART buffer to USB_CDC
+//------------------------------------------------------------------------------
+BYTE UartToCdc(BYTE uartNum, BYTE cdcNum)
+{
+    BYTE nTmp;
+    UINT nCount, size;
+    PBYTE pPacket;
+    PBYTE pEP1, pEP2;
+    PBYTE pCT1, pCT2;
+    BYTE edbIndex = stUsbHandle[cdcNum].edb_Index;
+    
+    // do not access USB memory if suspended (PLL off). It may produce BUS_ERROR
+    if ((bFunctionSuspended) ||
+        (bEnumerationStatus != ENUMERATION_COMPLETE))
+        return FALSE;
+    
+    if (UartBridge[uartNum].inpCurrentBufferXY == X_BUFFER) //get current buffer
+    {   // X_BUFFER is the active EP buffer
+        pEP1 = (PBYTE)stUsbHandle[cdcNum].iep_X_Buffer;
+        pCT1 = &tInputEndPointDescriptorBlock[edbIndex].bEPBCTX;
+        // second EP buffer
+        pEP2 = (PBYTE)stUsbHandle[cdcNum].iep_Y_Buffer;
+        pCT2 = &tInputEndPointDescriptorBlock[edbIndex].bEPBCTY;
+    }
+    else
+    {  
+        // Y_BUFFER is the active EP buffer
+        pEP1 = (PBYTE)stUsbHandle[cdcNum].iep_Y_Buffer;
+        pCT1 = &tInputEndPointDescriptorBlock[edbIndex].bEPBCTY;
+        // second EP buffer
+        pEP2 = (PBYTE)stUsbHandle[cdcNum].iep_X_Buffer;
+        pCT2 = &tInputEndPointDescriptorBlock[edbIndex].bEPBCTX;
+    }
+
+    // get DMA counter
+    #ifdef UART0_INTFNUM
+    if(uartNum == UART0_INTFNUM)
+        nCount = RX_BUFFER_SIZE - DMA2SZ;
+    #endif
+
+#if CDC_NUM_INTERFACES >= 2
+    #ifdef UART1_INTFNUM
+    if(uartNum == UART1_INTFNUM)
+      nCount = RX_BUFFER_SIZE - DMA4SZ;
+    #endif
+#endif
+    
+    if(UartBridge[uartNum].rxBufferOffset >= RX_BUFFER_SIZE)
+        UartBridge[uartNum].rxBufferOffset = 0;
+           
+    if(UartBridge[uartNum].rxBufferOffset > nCount)
+        nCount = RX_BUFFER_SIZE;
+        
+    nTmp = *pCT1;
+    if(nTmp & EPBCNT_NAK)
+    {
+        size = nCount - UartBridge[uartNum].rxBufferOffset;
+        if(size)
+        {   
+            // get packet pointer
+            pPacket = UartBridge[uartNum].rxBuffer + UartBridge[uartNum].rxBufferOffset;
+            
+            if(size > (MAX_PACKET_SIZE-1))                // check packet size
+                size = (MAX_PACKET_SIZE-1);
+            UartBridge[uartNum].rxBufferOffset += size;  // update offset
+
+            
+            USB_RX_memcpy(pEP1, pPacket, size); // copy data into EP X or Y buffer
+            *pCT1 = (BYTE)size;
+            
+            // switch current buffer
+            UartBridge[uartNum].inpCurrentBufferXY = (UartBridge[uartNum].inpCurrentBufferXY+1) &0x01;
+        }
+    }
+
+    nTmp = *pCT2;
+    if(nTmp & EPBCNT_NAK)
+    {
+        size = nCount - UartBridge[uartNum].rxBufferOffset;
+        if(size)
+        {   
+            // get packet pointer
+            pPacket = UartBridge[uartNum].rxBuffer + UartBridge[uartNum].rxBufferOffset; 
+              
+            if(size > (MAX_PACKET_SIZE-1))                // check packet size
+                size = (MAX_PACKET_SIZE-1);
+            UartBridge[uartNum].rxBufferOffset += size;  // update offset
+            
+            
+            USB_RX_memcpy(pEP2, pPacket, size); // copy data into EP X or Y buffer
+            *pCT2 = (BYTE)size;
+
+            //switch current buffer
+            UartBridge[uartNum].inpCurrentBufferXY = (UartBridge[uartNum].inpCurrentBufferXY+1) &0x01;
+        }  
+    }
+    
+    return FALSE;
+}
+
+//------------------------------------------------------------------------------
+// Transfers data from the USB_CDC buffer to UART
+//------------------------------------------------------------------------------
+BYTE CdcToUart(BYTE cdcNum, BYTE uartNum)
+{
+    BYTE nCount;
+    PBYTE pEP, pCT;
+    BYTE edbIndex = stUsbHandle[cdcNum].edb_Index;
+    
+    // Is transmit in progress?
+    if(UartBridge[uartNum].txInProgress)
+      return FALSE;
+        
+    // do not access USB memory if suspended (PLL off). It may produce BUS_ERROR
+    if ((bFunctionSuspended) ||
+        (bEnumerationStatus != ENUMERATION_COMPLETE))
+        return FALSE;
+    
+    // No data to transfer...
+    if (!((tOutputEndPointDescriptorBlock[edbIndex].bEPBCTX |
+           tOutputEndPointDescriptorBlock[edbIndex].bEPBCTY) & EPBCNT_NAK))
+        return FALSE;
+
+    if (UartBridge[uartNum].outpCurrentBufferXY == X_BUFFER)//get current buffer
+    {
+        //this is the active EP buffer
+        pEP = (PBYTE)stUsbHandle[cdcNum].oep_X_Buffer;
+        // how many byte we can get from endpoint buffer
+        pCT = &tOutputEndPointDescriptorBlock[edbIndex].bEPBCTX;
+    }
+    else
+    {
+        //this is the active EP buffer
+        pEP = (PBYTE)stUsbHandle[cdcNum].oep_Y_Buffer;
+        // how many byte we can get from endpoint buffer
+        pCT = &tOutputEndPointDescriptorBlock[edbIndex].bEPBCTY;
+    }
+
+    nCount = *pCT;
+    if(nCount & EPBCNT_NAK)
+    {
+        nCount &= ~EPBCNT_NAK;  // clear NAK bit
+        if(nCount)
+        {   
+            // copy data from EP X or Y buffer
+            USB_TX_memcpy(UartBridge[uartNum].txBuffer, pEP, nCount); 
+
+            // configure DMA
+            
+            #ifdef UART0_INTFNUM
+            if(uartNum == UART0_INTFNUM)
+            {
+              DMA3SZ = nCount;	// set size
+              DMA3CTL |=  DMAEN;  // enable
+            }
+            #endif
+
+#if CDC_NUM_INTERFACES >= 2
+            #ifdef UART1_INTFNUM
+            if(uartNum == UART1_INTFNUM)
+            {
+              DMA5SZ = nCount;	// set size
+              DMA5CTL |=  DMAEN;  // enable
+            }
+            #endif
+#endif
+            
+            // set tx status
+            UartBridge[uartNum].txInProgress = TRUE; 
+        }
+        else
+            UartBridge[uartNum].txInProgress = FALSE; 
+
+        //clear NAK, EP ready to receive data
+        *pCT = 0x00;
+        
+        //switch current buffer
+        UartBridge[uartNum].outpCurrentBufferXY  = (UartBridge[uartNum].outpCurrentBufferXY+1) &0x01;
+    }
+    
+    return FALSE;
+}
+#endif
+
+//==============================================================================
+// End of file	 uart.c
+//==============================================================================

@@ -1,0 +1,715 @@
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_config\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\usb\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 687 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(443) : Error[Pe101]: "_A_CBCTL0_L" has already been declared in the current scope (<SRCREF line=665 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 665 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(445) : Error[Pe101]: "_A_CBCTL1_L" has already been declared in the current scope (<SRCREF line=667 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 667 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(447) : Error[Pe101]: "_A_CBCTL2_L" has already been declared in the current scope (<SRCREF line=669 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 669 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(449) : Error[Pe101]: "_A_CBCTL3_L" has already been declared in the current scope (<SRCREF line=671 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 671 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(451) : Error[Pe101]: "_A_CBINT_L" has already been declared in the current scope (<SRCREF line=673 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 673 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(795) : Error[Pe101]: "_A_CRCDI_L" has already been declared in the current scope (<SRCREF line=1017 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1017 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(797) : Error[Pe101]: "_A_CRCDIRB_L" has already been declared in the current scope (<SRCREF line=1019 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1019 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(799) : Error[Pe101]: "_A_CRCINIRES_L" has already been declared in the current scope (<SRCREF line=1021 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1021 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(801) : Error[Pe101]: "_A_CRCRESR_L" has already been declared in the current scope (<SRCREF line=1023 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1023 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(810) : Error[Pe101]: "_A_DMACTL0_L" has already been declared in the current scope (<SRCREF line=1112 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1112 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(812) : Error[Pe101]: "_A_DMACTL1_L" has already been declared in the current scope (<SRCREF line=1114 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1114 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(814) : Error[Pe101]: "_A_DMACTL2_L" has already been declared in the current scope (<SRCREF line=1116 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1116 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(816) : Error[Pe101]: "_A_DMACTL3_L" has already been declared in the current scope (<SRCREF line=1118 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1118 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(818) : Error[Pe101]: "_A_DMACTL4_L" has already been declared in the current scope (<SRCREF line=1120 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1120 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(820) : Error[Pe101]: "_A_DMAIV_L" has already been declared in the current scope (<SRCREF line=1122 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1122 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(823) : Error[Pe101]: "_A_DMA0CTL_L" has already been declared in the current scope (<SRCREF line=1125 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1125 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(825) : Error[Pe101]: "_A_DMA0SA_L" has already been declared in the current scope (<SRCREF line=1127 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1127 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(827) : Error[Pe101]: "_A_DMA0DA_L" has already been declared in the current scope (<SRCREF line=1129 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1129 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(832) : Error[Pe101]: "_A_DMA1CTL_L" has already been declared in the current scope (<SRCREF line=1134 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1134 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(834) : Error[Pe101]: "_A_DMA1SA_L" has already been declared in the current scope (<SRCREF line=1136 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1136 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(836) : Error[Pe101]: "_A_DMA1DA_L" has already been declared in the current scope (<SRCREF line=1138 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1138 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(841) : Error[Pe101]: "_A_DMA2CTL_L" has already been declared in the current scope (<SRCREF line=1143 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1143 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(843) : Error[Pe101]: "_A_DMA2SA_L" has already been declared in the current scope (<SRCREF line=1145 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1145 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(845) : Error[Pe101]: "_A_DMA2DA_L" has already been declared in the current scope (<SRCREF line=1147 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1147 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1174) : Error[Pe101]: "_A_FCTL1_L" has already been declared in the current scope (<SRCREF line=1740 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1740 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1177) : Error[Pe101]: "_A_FCTL3_L" has already been declared in the current scope (<SRCREF line=1743 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1743 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1179) : Error[Pe101]: "_A_FCTL4_L" has already been declared in the current scope (<SRCREF line=1745 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 1745 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1257) : Error[Pe101]: "_A_MPY_L" has already been declared in the current scope (<SRCREF line=2373 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2373 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1259) : Error[Pe101]: "_A_MPYS_L" has already been declared in the current scope (<SRCREF line=2375 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2375 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1261) : Error[Pe101]: "_A_MAC_L" has already been declared in the current scope (<SRCREF line=2377 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2377 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1263) : Error[Pe101]: "_A_MACS_L" has already been declared in the current scope (<SRCREF line=2379 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2379 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1265) : Error[Pe101]: "_A_OP2_L" has already been declared in the current scope (<SRCREF line=2381 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2381 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1267) : Error[Pe101]: "_A_RESLO_L" has already been declared in the current scope (<SRCREF line=2383 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2383 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1269) : Error[Pe101]: "_A_RESHI_L" has already been declared in the current scope (<SRCREF line=2385 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2385 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1271) : Error[Pe101]: "_A_SUMEXT_L" has already been declared in the current scope (<SRCREF line=2387 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2387 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1274) : Error[Pe101]: "_A_MPY32L_L" has already been declared in the current scope (<SRCREF line=2390 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2390 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1276) : Error[Pe101]: "_A_MPY32H_L" has already been declared in the current scope (<SRCREF line=2392 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2392 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1278) : Error[Pe101]: "_A_MPYS32L_L" has already been declared in the current scope (<SRCREF line=2394 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2394 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1280) : Error[Pe101]: "_A_MPYS32H_L" has already been declared in the current scope (<SRCREF line=2396 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2396 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1282) : Error[Pe101]: "_A_MAC32L_L" has already been declared in the current scope (<SRCREF line=2398 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2398 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1284) : Error[Pe101]: "_A_MAC32H_L" has already been declared in the current scope (<SRCREF line=2400 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2400 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1286) : Error[Pe101]: "_A_MACS32L_L" has already been declared in the current scope (<SRCREF line=2402 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2402 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1288) : Error[Pe101]: "_A_MACS32H_L" has already been declared in the current scope (<SRCREF line=2404 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2404 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1290) : Error[Pe101]: "_A_OP2L_L" has already been declared in the current scope (<SRCREF line=2406 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2406 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1292) : Error[Pe101]: "_A_OP2H_L" has already been declared in the current scope (<SRCREF line=2408 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2408 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1294) : Error[Pe101]: "_A_RES0_L" has already been declared in the current scope (<SRCREF line=2410 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2410 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1296) : Error[Pe101]: "_A_RES1_L" has already been declared in the current scope (<SRCREF line=2412 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2412 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1298) : Error[Pe101]: "_A_RES2_L" has already been declared in the current scope (<SRCREF line=2414 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2414 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1300) : Error[Pe101]: "_A_RES3_L" has already been declared in the current scope (<SRCREF line=2416 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2416 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1302) : Error[Pe101]: "_A_MPY32CTL0_L" has already been declared in the current scope (<SRCREF line=2418 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2418 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1367) : Error[Pe101]: "_A_PAIN_L" has already been declared in the current scope (<SRCREF line=2483 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2483 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1369) : Error[Pe101]: "_A_PAOUT_L" has already been declared in the current scope (<SRCREF line=2485 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2485 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1371) : Error[Pe101]: "_A_PADIR_L" has already been declared in the current scope (<SRCREF line=2487 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2487 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1373) : Error[Pe101]: "_A_PAREN_L" has already been declared in the current scope (<SRCREF line=2489 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2489 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1375) : Error[Pe101]: "_A_PADS_L" has already been declared in the current scope (<SRCREF line=2491 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2491 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1377) : Error[Pe101]: "_A_PASEL_L" has already been declared in the current scope (<SRCREF line=2493 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2493 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1379) : Error[Pe101]: "_A_PAIES_L" has already been declared in the current scope (<SRCREF line=2495 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2495 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1381) : Error[Pe101]: "_A_PAIE_L" has already been declared in the current scope (<SRCREF line=2497 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2497 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1383) : Error[Pe101]: "_A_PAIFG_L" has already been declared in the current scope (<SRCREF line=2499 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2499 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1444) : Error[Pe101]: "_A_PBIN_L" has already been declared in the current scope (<SRCREF line=2560 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2560 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1446) : Error[Pe101]: "_A_PBOUT_L" has already been declared in the current scope (<SRCREF line=2562 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2562 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1448) : Error[Pe101]: "_A_PBDIR_L" has already been declared in the current scope (<SRCREF line=2564 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2564 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1450) : Error[Pe101]: "_A_PBREN_L" has already been declared in the current scope (<SRCREF line=2566 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2566 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1452) : Error[Pe101]: "_A_PBDS_L" has already been declared in the current scope (<SRCREF line=2568 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2568 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1454) : Error[Pe101]: "_A_PBSEL_L" has already been declared in the current scope (<SRCREF line=2570 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2570 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1483) : Error[Pe101]: "_A_PCIN_L" has already been declared in the current scope (<SRCREF line=2637 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2637 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1485) : Error[Pe101]: "_A_PCOUT_L" has already been declared in the current scope (<SRCREF line=2639 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2639 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1487) : Error[Pe101]: "_A_PCDIR_L" has already been declared in the current scope (<SRCREF line=2641 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2641 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1489) : Error[Pe101]: "_A_PCREN_L" has already been declared in the current scope (<SRCREF line=2643 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2643 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1491) : Error[Pe101]: "_A_PCDS_L" has already been declared in the current scope (<SRCREF line=2645 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2645 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1493) : Error[Pe101]: "_A_PCSEL_L" has already been declared in the current scope (<SRCREF line=2647 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2647 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1518) : Error[Pe101]: "_A_PJIN_L" has already been declared in the current scope (<SRCREF line=2741 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2741 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1520) : Error[Pe101]: "_A_PJOUT_L" has already been declared in the current scope (<SRCREF line=2743 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2743 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1522) : Error[Pe101]: "_A_PJDIR_L" has already been declared in the current scope (<SRCREF line=2745 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2745 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1524) : Error[Pe101]: "_A_PJREN_L" has already been declared in the current scope (<SRCREF line=2747 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2747 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1526) : Error[Pe101]: "_A_PJDS_L" has already been declared in the current scope (<SRCREF line=2749 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2749 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1535) : Error[Pe101]: "_A_PMAPKEYID_L" has already been declared in the current scope (<SRCREF line=2758 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2758 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1537) : Error[Pe101]: "_A_PMAPCTL_L" has already been declared in the current scope (<SRCREF line=2760 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2760 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1626) : Error[Pe101]: "_A_PMMCTL0_L" has already been declared in the current scope (<SRCREF line=2837 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2837 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1628) : Error[Pe101]: "_A_PMMCTL1_L" has already been declared in the current scope (<SRCREF line=2839 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2839 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1630) : Error[Pe101]: "_A_SVSMHCTL_L" has already been declared in the current scope (<SRCREF line=2841 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2841 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1632) : Error[Pe101]: "_A_SVSMLCTL_L" has already been declared in the current scope (<SRCREF line=2843 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2843 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1634) : Error[Pe101]: "_A_SVSMIO_L" has already been declared in the current scope (<SRCREF line=2845 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2845 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1636) : Error[Pe101]: "_A_PMMIFG_L" has already been declared in the current scope (<SRCREF line=2847 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2847 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1638) : Error[Pe101]: "_A_PMMRIE_L" has already been declared in the current scope (<SRCREF line=2849 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2849 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1640) : Error[Pe101]: "_A_PM5CTL0_L" has already been declared in the current scope (<SRCREF line=2851 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 2851 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1866) : Error[Pe101]: "_A_RCCTL0_L" has already been declared in the current scope (<SRCREF line=3077 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3077 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1893) : Error[Pe101]: "_A_REFCTL0_L" has already been declared in the current scope (<SRCREF line=3104 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3104 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1951) : Error[Pe101]: "_A_RTCCTL01_L" has already been declared in the current scope (<SRCREF line=3162 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3162 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1953) : Error[Pe101]: "_A_RTCCTL23_L" has already been declared in the current scope (<SRCREF line=3164 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3164 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1955) : Error[Pe101]: "_A_RTCPS0CTL_L" has already been declared in the current scope (<SRCREF line=3166 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3166 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1957) : Error[Pe101]: "_A_RTCPS1CTL_L" has already been declared in the current scope (<SRCREF line=3168 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3168 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1959) : Error[Pe101]: "_A_RTCPS_L" has already been declared in the current scope (<SRCREF line=3170 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3170 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1963) : Error[Pe101]: "_A_RTCTIM0_L" has already been declared in the current scope (<SRCREF line=3174 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3174 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1965) : Error[Pe101]: "_A_RTCTIM1_L" has already been declared in the current scope (<SRCREF line=3176 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3176 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1967) : Error[Pe101]: "_A_RTCDATE_L" has already been declared in the current scope (<SRCREF line=3178 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3178 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1969) : Error[Pe101]: "_A_RTCYEAR_L" has already been declared in the current scope (<SRCREF line=3180 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3180 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1971) : Error[Pe101]: "_A_RTCAMINHR_L" has already been declared in the current scope (<SRCREF line=3182 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3182 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(1973) : Error[Pe101]: "_A_RTCADOWDAY_L" has already been declared in the current scope (<SRCREF line=3184 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3184 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\msp430f5509.h(2239) : Error[Pe101]: "_A_SFRIE1_L" has already been declared in the current scope (<SRCREF line=3408 file="C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h">at line 3408 of "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\MSP430F6638.h"</SRCREF>)
+Error limit reached
+
+Errors: 100
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c(241) : Error[Pe020]: identifier "usbSetControlLineState" is undefined
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 228 bytes of CODE memory
+   8 bytes of DATA memory (+ 40 bytes shared)
+
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(195) : Error[Pe020]: identifier "DMA3TSEL__USCIA0TX" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(196) : Error[Pe020]: identifier "DMA3SA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(198) : Error[Pe020]: identifier "DMA3DA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(200) : Error[Pe020]: identifier "DMA3CTL" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(305) : Error[Pe020]: identifier "DMA4TSEL__USCIA1RX" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(306) : Error[Pe020]: identifier "DMA4SA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(308) : Error[Pe020]: identifier "DMA4DA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(310) : Error[Pe020]: identifier "DMA4SZ" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(311) : Error[Pe020]: identifier "DMA4CTL" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(315) : Error[Pe020]: identifier "DMA5TSEL__USCIA1TX" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(316) : Error[Pe020]: identifier "DMA5SA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(318) : Error[Pe020]: identifier "DMA5DA" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(320) : Error[Pe020]: identifier "DMA5CTL" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(349) : Error[Pe020]: identifier "CDC1_INTFNUM" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(408) : Error[Pe020]: identifier "DMA4SZ" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(516) : Error[Pe020]: identifier "DMA3SZ" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(517) : Error[Pe020]: identifier "DMA3CTL" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(524) : Error[Pe020]: identifier "DMA5SZ" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(525) : Error[Pe020]: identifier "DMA5CTL" is undefined
+
+Errors: 19
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 228 bytes of CODE memory
+   8 bytes of DATA memory (+ 40 bytes shared)
+
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\uart.c(13) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 681 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+Errors: none
+Warnings: none
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 2 274 bytes of CODE memory
+    67 bytes of DATA memory (+ 162 bytes shared)
+
+Errors: none
+
+dma.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\dma.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config_CDC_1\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config_CDC_1\descriptors.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 2 274 bytes of CODE memory
+    67 bytes of DATA memory (+ 162 bytes shared)
+
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+
+usb.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+dma.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\dma.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 2 274 bytes of CODE memory
+    67 bytes of DATA memory (+ 162 bytes shared)
+
+Errors: none
+Warnings: none
+
+usb.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_API\USB_Common\usb.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 

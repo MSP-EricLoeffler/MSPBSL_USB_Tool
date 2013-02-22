@@ -1,0 +1,464 @@
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 274 bytes of CODE memory
+   0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 430 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 274 bytes of CODE memory
+   0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 60 bytes of CODE memory
+  0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 454 bytes of CODE memory
+   0 bytes of DATA memory (+ 10 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 430 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 274 bytes of CODE memory
+   0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 60 bytes of CODE memory
+  0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 454 bytes of CODE memory
+   0 bytes of DATA memory (+ 10 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 430 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 274 bytes of CODE memory
+   0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 60 bytes of CODE memory
+  0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 454 bytes of CODE memory
+   0 bytes of DATA memory (+ 10 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 60 bytes of CODE memory
+  0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 454 bytes of CODE memory
+   0 bytes of DATA memory (+ 10 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 430 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_PMM.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_TLV.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\HAL_UCS.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 60 bytes of CODE memory
+  0 bytes of DATA memory (+ 4 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 454 bytes of CODE memory
+   0 bytes of DATA memory (+ 10 bytes shared)
+
+Errors: none
+Warnings: none
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config c:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_FLASH.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_FLASH.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMAP.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_PMAP.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_PMM.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_PMM.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_TLV.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_TLV.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+HAL_UCS.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\HAL_UCS.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 

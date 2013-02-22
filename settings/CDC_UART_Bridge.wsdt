@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>CDC_UART_Bridge_F5509/Debug</Project><Project>CDC_UART_Bridge_F6638/Debug</Project></CurrentConfigs><CurrentProj>CDC_UART_Bridge_F5509</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>264</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1215</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>580</ColumnWidth0><ColumnWidth1>82</ColumnWidth1><ColumnWidth2>994</ColumnWidth2></Find-in-Files>
+    <TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1621</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26103-16241</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-16170-16427</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-7020-7755</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-11216-23353</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509/Output</ExpandedNode><ExpandedNode>CDC_UART_Bridge_F5509/uart.c</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart.h</Filename><XPos>0</XPos><YPos>32</YPos><SelStart>1614</SelStart><SelEnd>1614</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USB_config\descriptors.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>2726</SelStart><SelEnd>2913</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\descriptor_output\descriptors.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>4104</SelStart><SelEnd>4104</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USB_config\UsbIsr.c</Filename><XPos>0</XPos><YPos>37</YPos><SelStart>2885</SelStart><SelEnd>2885</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart.c</Filename><XPos>0</XPos><YPos>262</YPos><SelStart>10410</SelStart><SelEnd>10410</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Documents\Clearcase_views\BSL430\msp430_tools\Projects\BSL430\Source Code\Devices\MSP430F5509\BSL430_Low_Level_Init.s43</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>805</SelStart><SelEnd>805</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Kickstart - V5.40\430\inc\intrinsics.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1798</SelStart><SelEnd>1798</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\Exe\CDC_UART_Bridge_F5509.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1253</SelStart><SelEnd>1253</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0273f2a0><key>iaridepm.enu1</key></Toolbar-0273f2a0></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>349</Bottom><Right>338</Right><x>-2</x><y>-2</y><xscreen>290</xscreen><yscreen>371</yscreen><sizeHorzCX>263158</sizeHorzCX><sizeHorzCY>594551</sizeHorzCY><sizeVertCX>308530</sizeVertCX><sizeVertCY>562500</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>230</Bottom><Right>1104</Right><x>-2</x><y>-2</y><xscreen>1106</xscreen><yscreen>232</yscreen><sizeHorzCX>1003630</sizeHorzCX><sizeHorzCY>371795</sizeHorzCY><sizeVertCX>678766</sizeVertCX><sizeVertCY>633013</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

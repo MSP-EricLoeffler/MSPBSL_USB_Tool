@@ -1,0 +1,660 @@
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F6638__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 586 bytes of CODE  memory
+   0 bytes of CONST memory (+  2 bytes shared)
+   0 bytes of DATA  memory (+ 12 bytes shared)
+
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 586 bytes of CODE  memory
+   0 bytes of CONST memory (+  2 bytes shared)
+   0 bytes of DATA  memory (+ 12 bytes shared)
+
+Errors: none
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(64) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(65) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(66) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(67) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(68) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(73) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(74) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(75) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(76) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(77) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(78) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(79) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(80) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(81) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(82) : Error[Pe020]: identifier "VOID" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(82) : Error[Pe092]: identifier-list parameters may only be used in a function definition
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(127) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(128) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(129) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(130) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(131) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(132) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(133) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(134) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(135) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(142) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(143) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(144) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(145) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(146) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(147) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(148) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(149) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(150) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(152) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(153) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(154) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(155) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(156) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(159) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(160) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(161) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(162) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(163) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(166) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(167) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(168) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(169) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(172) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(173) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(174) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(175) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(176) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(179) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(180) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(181) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(182) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(183) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(184) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(185) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(188) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(189) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(190) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(191) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(192) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(193) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(194) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(195) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(196) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(199) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(200) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(201) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(202) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(203) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(204) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(205) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(208) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(209) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(210) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(211) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(212) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(213) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(214) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(221) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(222) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(223) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(224) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(225) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(226) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(227) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(228) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(229) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(232) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(233) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(234) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(235) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(236) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(237) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(238) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(239) : Error[Pe020]: identifier "BYTE" is undefined
+Error limit reached
+
+Errors: 100
+Warnings: none
+Error while running C/C++ compiler
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(64) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(65) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(66) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(67) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(68) : Error[Pe020]: identifier "WORD" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(73) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(74) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(75) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(76) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(77) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(78) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(79) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(80) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(81) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(82) : Error[Pe020]: identifier "VOID" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\types.h(82) : Error[Pe092]: identifier-list parameters may only be used in a function definition
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(129) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(130) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(131) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(132) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(133) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(134) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(135) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(136) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(141) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(142) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(143) : Error[Pe020]: identifier "BYTE" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_Common\defMSP430USB.h(144) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(127) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(128) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(129) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(130) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(131) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(132) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(133) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(134) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(135) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(142) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(143) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(144) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(145) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(146) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(147) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(148) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(149) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(150) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(152) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(153) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(154) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(155) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(156) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(159) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(160) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(161) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(162) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(163) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(166) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(167) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(168) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(169) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(172) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(173) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(174) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(175) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(176) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(179) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(180) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(181) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(182) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(183) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(184) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(185) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(188) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(189) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(190) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(191) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(192) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(193) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(194) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(195) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(196) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(199) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(200) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(201) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(202) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(203) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(204) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(205) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(208) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(209) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(210) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(211) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(212) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(213) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(214) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(221) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(222) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(223) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(224) : Error[Pe020]: identifier "BYTE" is undefined
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(225) : Error[Pe020]: identifier "BYTE" is undefined
+Error limit reached
+
+Errors: 100
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.h(25) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_CDC_API\UsbCdc.c(791) : Error[Pe020]: identifier "CDC1_INTFNUM" is undefined
+c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_API\USB_CDC_API\UsbCdc.c(892) : Error[Pe020]: identifier "CDC1_INTFNUM" is undefined
+
+Errors: 2
+Warnings: none
+Error while running C/C++ compiler
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/types.h"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\F5xx_F6xx_Core_Lib\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\usb\"
+            searched: "c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 598 bytes of CODE  memory
+   0 bytes of CONST memory (+  2 bytes shared)
+   0 bytes of DATA  memory (+ 12 bytes shared)
+
+Errors: none
+Warnings: none
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\USB_config_CDC_1\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/USB_config_CDC_1\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c(18) : Fatal Error[Pe1696]: cannot open source file "USB_API/USB_Common/usb_types.h"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\F5xx_F6xx_Core_Lib\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\usb\"
+            searched: "C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\"
+            searched: "C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\inc\dlib\c\"
+
+Errors: 1
+Warnings: none
+Error while running C/C++ compiler
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 598 bytes of CODE  memory
+   0 bytes of CONST memory (+  2 bytes shared)
+   0 bytes of DATA  memory (+ 12 bytes shared)
+
+Errors: none
+Warnings: none
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c(159) : Error[Pe020]: identifier "CDC1_INTFNUM" is undefined
+
+Errors: 1
+Warnings: none
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I C:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 535 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 521 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
+UsbIsr.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 2 802 bytes of CODE memory
+    34 bytes of DATA memory (+ 5 bytes shared)
+
+Errors: none
+Warnings: none
+
+UsbIsr.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+UsbIsr.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+ 
+ 521 bytes of CONST memory
+
+Errors: none
+
+UsbIsr.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\UsbIsr.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
+
+descriptors.c 
+icc430.exe c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\USB_config\descriptors.c -o c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430F5509__ -e --double=32 --dlib_config C:\Program Files\IAR Systems\Embedded Workbench 6.0_5.30_full\430\LIB\DLIB\dl430xsfn.h -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/USB_config\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/F5xx_F6xx_Core_Lib\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/slip\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usb\ -I c:\Documents and Settings\a0196876\Desktop\_Temp\USB2RS232\CDC_UART_Bridge_F5509/usci\ --core=430X --data_model=small -Ol --multiplier=32 --multiplier_location=4C0 --hw_workaround=CPU40
+   
+   IAR C/C++ Compiler V5.30.3.50305/W32 for MSP430
+   Copyright 1996-2011 IAR Systems AB. 
