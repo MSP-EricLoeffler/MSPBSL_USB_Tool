@@ -1,7 +1,7 @@
 MSPBSL_USB_Tool
 ===============
 
-A CDC USB to UART tool for BSL programming.
+This firmware is designed to allow USB to UART communication for the purpose of programming an MSP430 BootStrapLoader.  It requires special hardware, described below.
 
 This firmware is based on the MSP430 CDC UART Bridge, which can be found in the USB developer package: http://www.ti.com/tool/msp430usbdevpack
 
