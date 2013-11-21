@@ -1,63 +1,72 @@
 ################################################################################
 #                                                                              #
-#      IAR Universal Linker V5.2.4.16                                          #
+#      IAR Universal Linker V5.6.0.36                                          #
 #                                                                              #
-#           Link time     =  25/Jan/2013  16:51:41                             #
+#           Link time     =  21/Nov/2013  10:31:40                             #
 #           Target CPU    =  MSP430                                            #
-#           List file     =  C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\List\CDC_UART_Bridge_F5509.map   #
-#           Output file 1 =  C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Exe\CDC_UART_Bridge_F5509.txt    #
+#           List file     =  C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\List\CDC_UART_B #
+#                            ridge_F5509.map                                   #
+#           Output file 1 =  C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Exe\CDC_UART_Br #
+#                            idge_F5509.txt                                    #
 #                            Format: msp430_txt                                #
-#           Output file 2 =  C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Exe\CDC_UART_Bridge_F5509.d43    #
+#           Output file 2 =  C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Exe\CDC_UART_Br #
+#                            idge_F5509.d43                                    #
 #                            Format: debug                                     #
 #                            UBROF version 10.0.6                              #
-#           Command line  =  C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\HAL_FLASH.r43                #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\HAL_PMAP.r43                 #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\HAL_PMM.r43                  #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\HAL_TLV.r43                  #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\HAL_UCS.r43                  #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\UsbCdc.r43                   #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\UsbIsr.r43                   #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\descriptors.r43              #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\dma.r43                      #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\initMCU.r43                  #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\main.r43                     #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\timer.r43                    #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\uart.r43                     #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\usb.r43                      #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\usbConstructs.r43            #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Obj\usbEventHandling.r43         #
+#           Command line  =  C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_FLASH.r #
+#                            43                                                #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_PMAP.r4 #
+#                            3                                                 #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_PMM.r43 #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_TLV.r43 #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_UCS.r43 #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\UsbCdc.r43  #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\UsbIsr.r43  #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\descriptors #
+#                            .r43                                              #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\dma.r43     #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\initMCU.r43 #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\main.r43    #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\timer.r43   #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\uart.r43    #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usb.r43     #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usbConstruc #
+#                            ts.r43                                            #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usbEventHan #
+#                            dling.r43                                         #
 #                            -o                                                #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\Exe\CDC_UART_Bridge_F5509.d43    #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\Exe\CDC_UART_Br #
+#                            idge_F5509.d43                                    #
 #                            -l                                                #
-#                            C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Br #
-#                            idge_F5509\Debug\List\CDC_UART_Bridge_F5509.map   #
-#                            -xmso                                             #
+#                            C:\Users\a0272600\Documents\Work\Apps\BSL\RocketB #
+#                            SL\MSPBSL_USB_Tool_lreynoso\Debug\List\CDC_UART_B #
+#                            ridge_F5509.map                                   #
+#                            -xmsn                                             #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
-#                            rkbench 6.0 Kickstart - V5.40\430\LIB\"           #
+#                            rkbench 5_52\430\LIB\"                            #
 #                            -f                                                #
 #                            "C:\Program Files (x86)\IAR Systems\Embedded Work #
-#                            bench 6.0 Kickstart - V5.40\430\CONFIG\lnk430F550 #
-#                            9.xcl"                                            #
+#                            bench 5_52\430\CONFIG\lnk430F5509.xcl"            #
 #                            (-cmsp430 -QCODE_I=CODE_ID                        #
 #                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I,DATA16 #
 #                            _HEAP+_DATA16_HEAP_SIZE=2400-33FF                 #
@@ -73,8 +82,7 @@
 #                            -P(CODE)CODE=A000-FF7F -Z(CODE)INTVEC=FF80-FFFF   #
 #                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
 #                            "C:\Program Files (x86)\IAR Systems\Embedded Work #
-#                            bench 6.0 Kickstart - V5.40\430\config\multiplier #
-#                            32_loc2.xcl"                                      #
+#                            bench 5_52\430\config\multiplier32_loc2.xcl"      #
 #                            (-e?Mul8HwLoc2=?Mul8 -e?Mul16HwLoc2=?Mul16        #
 #                            -e?Mul16to32uHwLoc2=?Mul16to32u                   #
 #                            -e?Mul16to32sHwLoc2=?Mul16to32s                   #
@@ -85,16 +93,15 @@
 #                            -e_Mul64fHwPtrLoc2=_Mul64fPtr) -D_STACK_SIZE=A0   #
 #                            -Fubrof                                           #
 #                            "C:\Program Files (x86)\IAR Systems\Embedded Work #
-#                            bench 6.0 Kickstart - V5.40\430\LIB\DLIB\dl430xsf #
-#                            n.r43"                                            #
+#                            bench 5_52\430\LIB\DLIB\dl430xsfn.r43"            #
 #                            -e_PrintfFull=_Printf -e_ScanfFull=_Scanf         #
 #                            -D_DATA16_HEAP_SIZE=A0                            #
-#                            -Omsp430_txt=C:\Users\a0217845\Desktop\Rocket_Too #
-#                            l\CDC_UART_Bridge_F5509\Debug\Exe\CDC_UART_Bridge #
-#                            _F5509.txt                                        #
+#                            -Omsp430_txt=C:\Users\a0272600\Documents\Work\App #
+#                            s\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Ex #
+#                            e\CDC_UART_Bridge_F5509.txt                       #
 #                            -s __program_start -D_DATA20_HEAP_SIZE=50         #
 #                                                                              #
-#                           Copyright (C) 1987-2011 IAR Systems AB.            #
+#                           Copyright (C) 1987-2013 IAR Systems AB.            #
 ################################################################################
 
 
@@ -161,7 +168,7 @@ Absolute parts
            _STACK_SIZE             00A0 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\HAL_FLASH.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_FLASH.r43
   PROGRAM MODULE, NAME : HAL_FLASH
 
   SEGMENTS IN THE MODULE
@@ -192,7 +199,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\HAL_PMAP.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_PMAP.r43
   PROGRAM MODULE, NAME : HAL_PMAP
 
   SEGMENTS IN THE MODULE
@@ -224,7 +231,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\HAL_PMM.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_PMM.r43
   PROGRAM MODULE, NAME : HAL_PMM
 
   SEGMENTS IN THE MODULE
@@ -297,47 +304,47 @@ DATA16_AN
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
   Relative segment, address: AD04 - ADDF (0xdc bytes), align: 1
-  Segment part 8.             Intra module refs:   SetVCore
+  Segment part 9.             Intra module refs:   SetVCore
            LOCAL                   ADDRESS         
            =====                   =======         
            SetVCoreUp              AD04 
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: AF50 - AFED (0x9e bytes), align: 1
-  Segment part 7.             Intra module refs:   SetVCore
+  Relative segment, address: AF56 - AFF3 (0x9e bytes), align: 1
+  Segment part 8.             Intra module refs:   SetVCore
            LOCAL                   ADDRESS         
            =====                   =======         
-           SetVCoreDown            AF50 
+           SetVCoreDown            AF56 
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B3EA - B435 (0x4c bytes), align: 1
-  Segment part 9.
+  Relative segment, address: B448 - B493 (0x4c bytes), align: 1
+  Segment part 7.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           SetVCore                B3EA            Init_StartUp (initMCU)
+           SetVCore                B448            Init_StartUp (initMCU)
                calls direct
                CSTACK = 00000000 ( 00000008 )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\HAL_TLV.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_TLV.r43
   PROGRAM MODULE, NAME : HAL_TLV
 
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: B39A - B3E9 (0x50 bytes), align: 1
-  Segment part 2.
+  Relative segment, address: B3F8 - B447 (0x50 bytes), align: 1
+  Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Get_TLV_Info            B39A            USB_InitSerialStringDescriptor (usb)
+           Get_TLV_Info            B3F8            USB_InitSerialStringDescriptor (usb)
                CSTACK = 00000000 ( 00000008 )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\HAL_UCS.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\HAL_UCS.r43
   PROGRAM MODULE, NAME : HAL_UCS
 
   SEGMENTS IN THE MODULE
@@ -434,19 +441,19 @@ DATA16_AN
            UCSCTL7_L               016E 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B6A8 - B6D7 (0x30 bytes), align: 1
+  Relative segment, address: B6F6 - B725 (0x30 bytes), align: 1
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           XT2_Start               B6A8            USB_enable (usb)
+           XT2_Start               B6F6            USB_enable (usb)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA6C - BA73 (0x8 bytes), align: 1
+  Relative segment, address: BA8A - BA91 (0x8 bytes), align: 1
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           XT2_Stop                BA6C            USB_handleVbusOffEvent (usbEventHandling)
+           XT2_Stop                BA8A            USB_handleVbusOffEvent (usbEventHandling)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
@@ -459,7 +466,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\UsbCdc.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\UsbCdc.r43
   PROGRAM MODULE, NAME : UsbCdc
 
   SEGMENTS IN THE MODULE
@@ -522,73 +529,73 @@ DATA16_Z
            CdcReadCtrl             2412 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B8C8 - B8E3 (0x1c bytes), align: 1
+  Relative segment, address: B8E6 - B901 (0x1c bytes), align: 1
   Segment part 25.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           CdcResetData            B8C8            USB_reset (usb)
+           CdcResetData            B8E6            USB_reset (usb)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B4C6 - B50B (0x46 bytes), align: 1
+  Relative segment, address: B522 - B567 (0x46 bytes), align: 1
   Segment part 13.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbGetLineCoding0       B4C6            tUsbRequestList (descriptors)
+           usbGetLineCoding0       B522            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA64 - BA6B (0x8 bytes), align: 1
+  Relative segment, address: BA82 - BA89 (0x8 bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetLineCoding0       BA64            tUsbRequestList (descriptors)
+           usbSetLineCoding0       BA82            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B24E - B2A1 (0x54 bytes), align: 1
+  Relative segment, address: B302 - B355 (0x54 bytes), align: 1
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbSetControlLineState0
-                                   B24E            tUsbRequestList (descriptors)
+                                   B302            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B0FE - B177 (0x7a bytes), align: 1
+  Relative segment, address: B108 - B181 (0x7a bytes), align: 1
   Segment part 10.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            Handler_SetLineCoding0
-                                   B0FE            OEP0InterruptHandler (UsbIsr)
+                                   B108            OEP0InterruptHandler (UsbIsr)
                calls direct
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BAA4 - BAA5 (0x2 bytes), align: 1
+  Relative segment, address: BAC2 - BAC3 (0x2 bytes), align: 1
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            Handler_SetLineCoding1
-                                   BAA4            OEP0InterruptHandler (UsbIsr)
+                                   BAC2            OEP0InterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BAA6 - BAA7 (0x2 bytes), align: 1
+  Relative segment, address: BAC4 - BAC5 (0x2 bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            Handler_SetLineCoding2
-                                   BAA6            OEP0InterruptHandler (UsbIsr)
+                                   BAC4            OEP0InterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\UsbIsr.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\UsbIsr.r43
   PROGRAM MODULE, NAME : UsbIsr
 
   SEGMENTS IN THE MODULE
@@ -707,46 +714,46 @@ ISR_CODE
                CSTACK = 00000000 ( 00000010 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B58E - B5CD (0x40 bytes), align: 1
+  Relative segment, address: B5A8 - B5E7 (0x40 bytes), align: 1
   Segment part 14.            Intra module refs:   iUsbInterruptHandler
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            SetupPacketInterruptHandler
-                                   B58E 
+                                   B5A8 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B50C - B54D (0x42 bytes), align: 1
+  Relative segment, address: B4DC - B521 (0x46 bytes), align: 1
   Segment part 13.            Intra module refs:   iUsbInterruptHandler
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           PWRVBUSoffHandler       B50C 
+           PWRVBUSoffHandler       B4DC 
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B6D8 - B707 (0x30 bytes), align: 1
+  Relative segment, address: B65E - B691 (0x34 bytes), align: 1
   Segment part 12.            Intra module refs:   iUsbInterruptHandler
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           PWRVBUSonHandler        B6D8 
+           PWRVBUSonHandler        B65E 
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B91A - B933 (0x1a bytes), align: 1
+  Relative segment, address: B938 - B951 (0x1a bytes), align: 1
   Segment part 11.            Intra module refs:   iUsbInterruptHandler
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           IEP0InterruptHandler    B91A 
+           IEP0InterruptHandler    B938 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B348 - B399 (0x52 bytes), align: 1
+  Relative segment, address: B356 - B3A7 (0x52 bytes), align: 1
   Segment part 10.            Intra module refs:   iUsbInterruptHandler
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           OEP0InterruptHandler    B348 
+           OEP0InterruptHandler    B356 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
@@ -760,7 +767,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\descriptors.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\descriptors.r43
   PROGRAM MODULE, NAME : descriptors
 
   SEGMENTS IN THE MODULE
@@ -806,7 +813,7 @@ DATA16_C
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\dma.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\dma.r43
   PROGRAM MODULE, NAME : dma
 
   SEGMENTS IN THE MODULE
@@ -998,32 +1005,32 @@ DATA16_Z
            USB_RX_memcpy           2426            UartToCdc (uart)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B822 - B845 (0x24 bytes), align: 1
+  Relative segment, address: B840 - B863 (0x24 bytes), align: 1
   Segment part 22.            Intra module refs:   USB_initMemcpy
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           memcpyV                 B822 
+           memcpyV                 B840 
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B47E - B4C5 (0x48 bytes), align: 1
+  Relative segment, address: B494 - B4DB (0x48 bytes), align: 1
   Segment part 21.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_initMemcpy          B47E            USB_init (usb)
+           USB_initMemcpy          B494            USB_init (usb)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B760 - B787 (0x28 bytes), align: 1
+  Relative segment, address: B77E - B7A5 (0x28 bytes), align: 1
   Segment part 20.            Intra module refs:   USB_initMemcpy
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           memcpyDMA0              B760 
+           memcpyDMA0              B77E 
                CSTACK = 00000000 ( 00000004 )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\initMCU.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\initMCU.r43
   PROGRAM MODULE, NAME : initMCU
 
   SEGMENTS IN THE MODULE
@@ -1190,51 +1197,51 @@ DATA16_AN
            WDTCTL_L                015C 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B644 - B675 (0x32 bytes), align: 1
-  Segment part 21.            Intra module refs:   Init_StartUp
+  Relative segment, address: B6C4 - B6F5 (0x32 bytes), align: 1
+  Segment part 23.            Intra module refs:   Init_StartUp
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_Clock              B644 
+           Init_Clock              B6C4 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B5CE - B609 (0x3c bytes), align: 1
+  Relative segment, address: B5E8 - B623 (0x3c bytes), align: 1
   Segment part 22.            Intra module refs:   Init_StartUp
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_Ports              B5CE 
+           Init_Ports              B5E8 
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B736 - B75F (0x2a bytes), align: 1
-  Segment part 23.
+  Relative segment, address: B754 - B77D (0x2a bytes), align: 1
+  Segment part 21.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_StartUp            B736            main (main)
+           Init_StartUp            B754            main (main)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B7FC - B821 (0x26 bytes), align: 1
+  Relative segment, address: B81A - B83F (0x26 bytes), align: 1
   Segment part 20.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ConfigUSB               B7FC            main (main)
+           ConfigUSB               B81A            main (main)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B8E4 - B8FF (0x1c bytes), align: 1
+  Relative segment, address: B902 - B91D (0x1c bytes), align: 1
   Segment part 19.            Intra module refs:   Init_StartUp
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Port_Mapping            B8E4 
+           Port_Mapping            B902 
                CSTACK = 00000000 ( 00000004 )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\main.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\main.r43
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE
@@ -1264,11 +1271,11 @@ DATA16_AN
            SYSUNIV_L               019A 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B7B0 - B7D5 (0x26 bytes), align: 1
+  Relative segment, address: B7CE - B7F3 (0x26 bytes), align: 1
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           main                    B7B0            Segment part 22 (?cstart)
+           main                    B7CE            Segment part 22 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
@@ -1292,7 +1299,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\timer.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\timer.r43
   PROGRAM MODULE, NAME : timer
 
   SEGMENTS IN THE MODULE
@@ -1319,11 +1326,11 @@ DATA16_AN
            TA2CCR0                 0412 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B8A8 - B8C7 (0x20 bytes), align: 1
+  Relative segment, address: B8C6 - B8E5 (0x20 bytes), align: 1
   Segment part 7.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_TimerA2            B8A8            main (main)
+           Init_TimerA2            B8C6            main (main)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 ISR_CODE
@@ -1346,7 +1353,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\uart.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\uart.r43
   PROGRAM MODULE, NAME : uart
 
   SEGMENTS IN THE MODULE
@@ -1448,11 +1455,11 @@ DATA16_Z
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B1E6 - B24D (0x68 bytes), align: 1
+  Relative segment, address: B1F0 - B257 (0x68 bytes), align: 1
   Segment part 30.            Intra module refs:   InitUart0
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           SetupDmaForUart0        B1E6 
+           SetupDmaForUart0        B1F0 
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 ISR_CODE
@@ -1493,7 +1500,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\usb.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usb.r43
   PROGRAM MODULE, NAME : usb
 
   SEGMENTS IN THE MODULE
@@ -1797,16 +1804,16 @@ DATA16_AN
            abOEP0Buffer            2370 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B2F6 - B347 (0x52 bytes), align: 1
+  Relative segment, address: B258 - B2AD (0x56 bytes), align: 1
   Segment part 75.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_init                B2F6            ConfigUSB (initMCU)
+           USB_init                B258            ConfigUSB (initMCU)
                calls direct
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: ADE0 - AEA1 (0xc2 bytes), align: 1
+  Relative segment, address: ADE0 - AEA7 (0xc8 bytes), align: 1
   Segment part 74.            Intra module refs:   USB_init
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
@@ -1816,35 +1823,35 @@ DATA16_AN
                CSTACK = 00000000 ( 0000000A )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B07A - B0FD (0x84 bytes), align: 1
-  Segment part 62.            Intra module refs:   USB_resume
+  Relative segment, address: B080 - B107 (0x88 bytes), align: 1
+  Segment part 73.            Intra module refs:   USB_resume
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_enable              B07A            ConfigUSB (initMCU)
+           USB_enable              B080            ConfigUSB (initMCU)
                                                    USB_handleVbusOnEvent (usbEventHandling)
                calls direct
                CSTACK = 00000000 ( 00000008 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B846 - B867 (0x22 bytes), align: 1
-  Segment part 73.
+  Relative segment, address: B864 - B885 (0x22 bytes), align: 1
+  Segment part 72.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_disable             B846            InitUart0 (uart)
+           USB_disable             B864            InitUart0 (uart)
                                                    UNMI_ISR (main)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA54 - BA5B (0x8 bytes), align: 1
-  Segment part 72.
+  Relative segment, address: BA72 - BA79 (0x8 bytes), align: 1
+  Segment part 71.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_setEnabledEvents    BA54            ConfigUSB (initMCU)
+           USB_setEnabledEvents    BA72            ConfigUSB (initMCU)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
   Relative segment, address: A94A - AAD1 (0x188 bytes), align: 1
-  Segment part 70.
+  Segment part 69.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            USB_reset               A94A            ConfigUSB (initMCU)
@@ -1854,54 +1861,54 @@ DATA16_AN
                CSTACK = 00000000 ( 00000006 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B788 - B7AF (0x28 bytes), align: 1
-  Segment part 69.
+  Relative segment, address: B7A6 - B7CD (0x28 bytes), align: 1
+  Segment part 68.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_connect             B788            ConfigUSB (initMCU)
+           USB_connect             B7A6            ConfigUSB (initMCU)
                                                    USB_handleVbusOnEvent (usbEventHandling)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B708 - B735 (0x2e bytes), align: 1
-  Segment part 66.
+  Relative segment, address: B726 - B753 (0x2e bytes), align: 1
+  Segment part 65.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_connectionInfo      B708            ConfigUSB (initMCU)
+           USB_connectionInfo      B726            ConfigUSB (initMCU)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B676 - B6A7 (0x32 bytes), align: 1
-  Segment part 64.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           USB_suspend             B676            iUsbInterruptHandler (UsbIsr)
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B968 - B97F (0x18 bytes), align: 1
+  Relative segment, address: B692 - B6C3 (0x32 bytes), align: 1
   Segment part 63.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_resume              B968            iUsbInterruptHandler (UsbIsr)
+           USB_suspend             B692            iUsbInterruptHandler (UsbIsr)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: B986 - B99D (0x18 bytes), align: 1
+  Segment part 62.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_resume              B986            iUsbInterruptHandler (UsbIsr)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA4A - BA53 (0xa bytes), align: 1
-  Segment part 38.            Intra module refs:   usbClearDeviceFeature
+  Relative segment, address: BA68 - BA71 (0xa bytes), align: 1
+  Segment part 61.            Intra module refs:   usbClearDeviceFeature
                                                    usbInvalidRequest
                                                    usbSetAddress
                                                    usbSetDeviceFeature
                                                    usbSetEndpointFeature
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbStallEndpoint0       BA4A 
+           usbStallEndpoint0       BA68 
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA7A - BA7F (0x6 bytes), align: 1
-  Segment part 50.            Intra module refs:   usbGetConfiguration
+  Relative segment, address: BA98 - BA9D (0x6 bytes), align: 1
+  Segment part 60.            Intra module refs:   usbGetConfiguration
                                                    usbGetConfigurationDescriptor
                                                    usbGetDeviceDescriptor
                                                    usbGetDeviceStatus
@@ -1913,32 +1920,32 @@ DATA16_AN
                                                    usbReceiveNextPacketOnOEP0
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbClearOEP0ByteCount   BA7A 
+           usbClearOEP0ByteCount   BA98 
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA74 - BA79 (0x6 bytes), align: 1
-  Segment part 41.            Intra module refs:   usbReceiveNextPacketOnOEP0
+  Relative segment, address: BA92 - BA97 (0x6 bytes), align: 1
+  Segment part 59.            Intra module refs:   usbReceiveNextPacketOnOEP0
                                                    usbSetAddress
                                                    usbSetConfiguration
                                                    usbSetInterface
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbStallOEP0            BA74 
+           usbStallOEP0            BA92 
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B178 - B1E5 (0x6e bytes), align: 1
-  Segment part 48.            Intra module refs:   usbSendDataPacketOnEP0
+  Relative segment, address: B182 - B1EF (0x6e bytes), align: 1
+  Segment part 58.            Intra module refs:   usbSendDataPacketOnEP0
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbSendNextPacketOnIEP0
-                                   B178            IEP0InterruptHandler (UsbIsr)
+                                   B182            IEP0InterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B868 - B887 (0x20 bytes), align: 1
-  Segment part 49.            Intra module refs:   usbGetConfiguration
+  Relative segment, address: B886 - B8A5 (0x20 bytes), align: 1
+  Segment part 57.            Intra module refs:   usbGetConfiguration
                                                    usbGetConfigurationDescriptor
                                                    usbGetDeviceDescriptor
                                                    usbGetDeviceStatus
@@ -1949,33 +1956,33 @@ DATA16_AN
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbSendDataPacketOnEP0
-                                   B868            usbGetLineCoding0 (UsbCdc)
+                                   B886            usbGetLineCoding0 (UsbCdc)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B2A2 - B2F5 (0x54 bytes), align: 1
-  Segment part 61.
+  Relative segment, address: B2AE - B301 (0x54 bytes), align: 1
+  Segment part 56.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbReceiveNextPacketOnOEP0
-                                   B2A2            OEP0InterruptHandler (UsbIsr)
+                                   B2AE            OEP0InterruptHandler (UsbIsr)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA00 - BA11 (0x12 bytes), align: 1
-  Segment part 60.
+  Relative segment, address: BA1E - BA2F (0x12 bytes), align: 1
+  Segment part 55.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbReceiveDataPacketOnEP0
-                                   BA00            usbSetLineCoding0 (UsbCdc)
+                                   BA1E            usbSetLineCoding0 (UsbCdc)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA22 - BA2F (0xe bytes), align: 1
-  Segment part 40.            Intra module refs:   usbClearDeviceFeature
+  Relative segment, address: BA40 - BA4D (0xe bytes), align: 1
+  Segment part 54.            Intra module refs:   usbClearDeviceFeature
                                                    usbClearEndpointFeature
                                                    usbSetAddress
                                                    usbSetConfiguration
@@ -1985,254 +1992,254 @@ DATA16_AN
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbSendZeroLengthPacketOnIEP0
-                                   BA22            usbSetControlLineState0 (UsbCdc)
+                                   BA40            usbSetControlLineState0 (UsbCdc)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B60A - B643 (0x3a bytes), align: 1
-  Segment part 59.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbClearEndpointFeature
-                                   B60A            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: BA12 - BA21 (0x10 bytes), align: 1
-  Segment part 58.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbGetConfiguration     BA12            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B994 - B9A5 (0x12 bytes), align: 1
-  Segment part 57.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbGetDeviceDescriptor
-                                   B994            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B9A6 - B9B7 (0x12 bytes), align: 1
-  Segment part 56.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbGetConfigurationDescriptor
-                                   B9A6            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B436 - B47D (0x48 bytes), align: 1
-  Segment part 55.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbGetStringDescriptor
-                                   B436            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B900 - B919 (0x1a bytes), align: 1
-  Segment part 54.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           usbGetInterface         B900            tUsbRequestList (descriptors)
-               calls direct
-               CSTACK = 00000000 ( 00000004 )
-    -------------------------------------------------------------------------
-<CODE> 1 (was CODE)
-  Relative segment, address: B7D6 - B7FB (0x26 bytes), align: 1
+  Relative segment, address: B624 - B65D (0x3a bytes), align: 1
   Segment part 53.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbGetDeviceStatus      B7D6            tUsbRequestList (descriptors)
+           usbClearEndpointFeature
+                                   B624            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B94E - B967 (0x1a bytes), align: 1
+  Relative segment, address: BA30 - BA3F (0x10 bytes), align: 1
   Segment part 52.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbGetInterfaceStatus   B94E            tUsbRequestList (descriptors)
+           usbGetConfiguration     BA30            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: AFEE - B079 (0x8c bytes), align: 1
+  Relative segment, address: B9B2 - B9C3 (0x12 bytes), align: 1
   Segment part 51.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbGetEndpointStatus    AFEE            tUsbRequestList (descriptors)
+           usbGetDeviceDescriptor
+                                   B9B2            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B934 - B94D (0x1a bytes), align: 1
-  Segment part 47.            Intra module refs:   usbDecodeAndProcessUsbRequest
+  Relative segment, address: B9C4 - B9D5 (0x12 bytes), align: 1
+  Segment part 50.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetAddress           B934            tUsbRequestList (descriptors)
+           usbGetConfigurationDescriptor
+                                   B9C4            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B888 - B8A7 (0x20 bytes), align: 1
+  Relative segment, address: B3A8 - B3F7 (0x50 bytes), align: 1
+  Segment part 49.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbGetStringDescriptor
+                                   B3A8            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000006 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: B91E - B937 (0x1a bytes), align: 1
+  Segment part 48.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbGetInterface         B91E            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: B7F4 - B819 (0x26 bytes), align: 1
+  Segment part 47.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbGetDeviceStatus      B7F4            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: B96C - B985 (0x1a bytes), align: 1
   Segment part 46.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetConfiguration     B888            tUsbRequestList (descriptors)
+           usbGetInterfaceStatus   B96C            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B9DC - B9ED (0x12 bytes), align: 1
+  Relative segment, address: AFF4 - B07F (0x8c bytes), align: 1
   Segment part 45.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbClearDeviceFeature   B9DC            tUsbRequestList (descriptors)
+           usbGetEndpointStatus    AFF4            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B9CA - B9DB (0x12 bytes), align: 1
-  Segment part 44.
+  Relative segment, address: B952 - B96B (0x1a bytes), align: 1
+  Segment part 44.            Intra module refs:   usbDecodeAndProcessUsbRequest
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetDeviceFeature     B9CA            tUsbRequestList (descriptors)
+           usbSetAddress           B952            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B54E - B58D (0x40 bytes), align: 1
+  Relative segment, address: B8A6 - B8C5 (0x20 bytes), align: 1
   Segment part 43.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetEndpointFeature   B54E            tUsbRequestList (descriptors)
+           usbSetConfiguration     B8A6            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA30 - BA3D (0xe bytes), align: 1
+  Relative segment, address: B9FA - BA0B (0x12 bytes), align: 1
   Segment part 42.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbSetInterface         BA30            tUsbRequestList (descriptors)
+           usbClearDeviceFeature   B9FA            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA3E - BA49 (0xc bytes), align: 1
+  Relative segment, address: B9E8 - B9F9 (0x12 bytes), align: 1
+  Segment part 41.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbSetDeviceFeature     B9E8            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: B568 - B5A7 (0x40 bytes), align: 1
+  Segment part 40.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbSetEndpointFeature   B568            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: BA4E - BA5B (0xe bytes), align: 1
   Segment part 39.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           usbInvalidRequest       BA3E            tUsbRequestList (descriptors)
+           usbSetInterface         BA4E            tUsbRequestList (descriptors)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: AEA2 - AF4F (0xae bytes), align: 1
+  Relative segment, address: BA5C - BA67 (0xc bytes), align: 1
+  Segment part 38.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           usbInvalidRequest       BA5C            tUsbRequestList (descriptors)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: AEA8 - AF55 (0xae bytes), align: 1
   Segment part 37.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            usbDecodeAndProcessUsbRequest
-                                   AEA2            SetupPacketInterruptHandler (UsbIsr)
+                                   AEA8            SetupPacketInterruptHandler (UsbIsr)
                calls direct and indirect
                CSTACK = 00000000 ( 0000000C )
 
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\usbConstructs.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usbConstructs.r43
     *************************************************************************
 
-  FILE NAME : C:\Users\a0217845\Desktop\Rocket_Tool\CDC_UART_Bridge_F5509\Debug\Obj\usbEventHandling.r43
+  FILE NAME : C:\Users\a0272600\Documents\Work\Apps\BSL\RocketBSL\MSPBSL_USB_Tool_lreynoso\Debug\Obj\usbEventHandling.r43
   PROGRAM MODULE, NAME : usbEventHandling
 
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: BA80 - BA83 (0x4 bytes), align: 1
+  Relative segment, address: BA9E - BAA1 (0x4 bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_handleClockEvent    BA80            iUsbInterruptHandler (UsbIsr)
+           USB_handleClockEvent    BA9E            iUsbInterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: B980 - B993 (0x14 bytes), align: 1
+  Relative segment, address: B99E - B9B1 (0x14 bytes), align: 1
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_handleVbusOnEvent   B980            iUsbInterruptHandler (UsbIsr)
+           USB_handleVbusOnEvent   B99E            iUsbInterruptHandler (UsbIsr)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA5C - BA63 (0x8 bytes), align: 1
+  Relative segment, address: BA7A - BA81 (0x8 bytes), align: 1
   Segment part 10.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            USB_handleVbusOffEvent
-                                   BA5C            iUsbInterruptHandler (UsbIsr)
+                                   BA7A            iUsbInterruptHandler (UsbIsr)
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA84 - BA87 (0x4 bytes), align: 1
+  Relative segment, address: BAA2 - BAA5 (0x4 bytes), align: 1
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_handleResetEvent    BA84            iUsbInterruptHandler (UsbIsr)
+           USB_handleResetEvent    BAA2            iUsbInterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA88 - BA8B (0x4 bytes), align: 1
+  Relative segment, address: BAA6 - BAA9 (0x4 bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            USB_handleSuspendEvent
-                                   BA88            iUsbInterruptHandler (UsbIsr)
+                                   BAA6            iUsbInterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA8C - BA8F (0x4 bytes), align: 1
+  Relative segment, address: BAAA - BAAD (0x4 bytes), align: 1
   Segment part 7.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USB_handleResumeEvent   BA8C            iUsbInterruptHandler (UsbIsr)
+           USB_handleResumeEvent   BAAA            iUsbInterruptHandler (UsbIsr)
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA90 - BA93 (0x4 bytes), align: 1
+  Relative segment, address: BAAE - BAB1 (0x4 bytes), align: 1
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            USB_handleEnumCompleteEvent
-                                   BA90            usbDecodeAndProcessUsbRequest (usb)
+                                   BAAE            usbDecodeAndProcessUsbRequest (usb)
                CSTACK = 00000000 ( 00000004 )
 
     *************************************************************************
 
-  FILE NAME : C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Kickstart - V5.40\430\LIB\DLIB\dl430xsfn.r43
+  FILE NAME : C:\Program Files (x86)\IAR Systems\Embedded Workbench 5_52\430\LIB\DLIB\dl430xsfn.r43
   LIBRARY MODULE, NAME : ?_exit
 
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: BA94, align: 1
+  Relative segment, address: BAB2, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   BA94            exit (?exit)
+           _exit                   BAB2            exit (?exit)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: BA94 - BA97 (0x4 bytes), align: 1
+  Relative segment, address: BAB2 - BAB5 (0x4 bytes), align: 1
   Segment part 6.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -2309,11 +2316,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: BA98 - BA9B (0x4 bytes), align: 1
+  Relative segment, address: BAB6 - BAB9 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    BA98            Segment part 22 (?cstart)
+           exit                    BAB6            Segment part 22 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000004 )
 
@@ -2323,11 +2330,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: B9B8 - B9C9 (0x12 bytes), align: 1
+  Relative segment, address: B9D6 - B9E7 (0x12 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           memset                  B9B8            CdcResetData (UsbCdc)
+           memset                  B9D6            CdcResetData (UsbCdc)
                CSTACK = 00000000 ( 00000004 )
 
     -------------------------------------------------------------------------
@@ -2336,11 +2343,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: B9EE - B9FF (0x12 bytes), align: 1
+  Relative segment, address: BA0C - BA1D (0x12 bytes), align: 1
   Segment part 4.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __data16_memzero        B9EE            ?cstart_init_zero (?cstart)
+           __data16_memzero        BA0C            ?cstart_init_zero (?cstart)
                CSTACK = 00000000 ( 00000004 )
 
     -------------------------------------------------------------------------
@@ -2349,11 +2356,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: BA9C - BA9F (0x4 bytes), align: 1
+  Relative segment, address: BABA - BABD (0x4 bytes), align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?IndCallR9              BA9C            usbDecodeAndProcessUsbRequest (usb)
+           ?IndCallR9              BABA            usbDecodeAndProcessUsbRequest (usb)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -2361,11 +2368,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: BAA0 - BAA3 (0x4 bytes), align: 1
+  Relative segment, address: BABE - BAC1 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  BAA0            Segment part 6 (?_exit)
+           __exit                  BABE            Segment part 6 (?_exit)
                                                    _exit (?_exit)
 
 
@@ -2373,751 +2380,51 @@ RESET
 
                 ****************************************
                 *                                      *
-                *              CALL GRAPH              *
+                *            MODULE SUMMARY            *
                 *                                      *
                 ****************************************
 
-  ->Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-                             CSTACK
-    | Stack used (prev) :  00000000
-  02    USB_handleResumeEvent
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-  02    USB_handleSuspendEvent
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-  02    USB_handleResetEvent
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-  03      XT2_Stop
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-  02    USB_handleVbusOffEvent
-        | Stack used (prev) :  00000004
-        | + function block  :  00000004
-  03      USB_connect
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-  04        CdcResetData
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-  03      USB_reset
-          | Stack used (prev) :  00000004
-          | + function block  :  00000006
-  04        XT2_Start
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-  03      USB_enable
-          | Stack used (prev) :  00000004
-          | + function block  :  00000008
-  02    USB_handleVbusOnEvent
-        | Stack used (prev) :  0000000C
-        | + function block  :  00000004
-  02    USB_handleClockEvent
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-  03      USB_enable
-          | Stack used (prev) :  00000004
-          | + function block  :  00000008
-          |  Already listed
-  02    USB_resume
-        | Stack used (prev) :  0000000C
-        | + function block  :  00000004
-  02    USB_suspend
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-  02    USB_reset
-        | Stack used (prev) :  00000004
-        | + function block  :  00000006
-        |  Already listed
-  02    CdcToUart
-        | Stack used (prev) :  00000000
-        | + function block  :  0000000C
-  02    UartToCdc
-        | Stack used (prev) :  00000000
-        | + function block  :  00000010
-  04        usbStallOEP0
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-  04        usbStallOEP0
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-            |  Already listed
-  04        usbClearOEP0ByteCount
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-  03      usbReceiveNextPacketOnOEP0
-          | Stack used (prev) :  00000004
-          | + function block  :  00000004
-  03      Handler_SetLineCoding2
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-  03      Handler_SetLineCoding1
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-  05          USB_disable
-              | Stack used (prev) :  00000000
-              | + function block  :  00000004
-  05          SetupDmaForUart0
-              | Stack used (prev) :  00000000
-              | + function block  :  00000004
-  04        InitUart0
-            | Stack used (prev) :  00000004
-            | + function block  :  00000006
-  03      Handler_SetLineCoding0
-          | Stack used (prev) :  0000000A
-          | + function block  :  0000000C
-  02    OEP0InterruptHandler
-        | Stack used (prev) :  00000016
-        | + function block  :  00000004
-  03      usbSendNextPacketOnIEP0
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-  02    IEP0InterruptHandler
-        | Stack used (prev) :  00000004
-        | + function block  :  00000004
-  02    PWRVBUSonHandler
-        | Stack used (prev) :  00000000
-        | + function block  :  00000006
-  02    PWRVBUSoffHandler
-        | Stack used (prev) :  00000000
-        | + function block  :  00000006
-  04        USB_handleEnumCompleteEvent
-            | Stack used (prev) :  00000000
-            | + function block  :  00000004
-  03      usbDecodeAndProcessUsbRequest
-          | Stack used (prev) :  00000004
-          | + function block  :  0000000C
-  02    SetupPacketInterruptHandler
-        | Stack used (prev) :  00000010
-        | + function block  :  00000004
-  02    SetupPacketInterruptHandler
-        | Stack used (prev) :  00000010
-        | + function block  :  00000004
-        |  Already listed
-  01  iUsbInterruptHandler
-      | Stack used (prev) :  0000001A
-      | + function block  :  00000010
-  <-Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-    | Stack used          :  0000002A
-
-
-  ->Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-                             CSTACK
-    | Stack used (prev) :  0000002A
-  02    USB_disable
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  UNMI_ISR
-      | Stack used (prev) :  0000002A
-      | + function block  :  0000000C
-  <-Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-    | Stack used          :  00000036
-
-
-  ->Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-                             CSTACK
-    | Stack used (prev) :  00000036
-  02    UartToCdc
-        | Stack used (prev) :  00000000
-        | + function block  :  00000010
-        |  Already listed
-  01  TIMER2_A0_ISR
-      | Stack used (prev) :  00000036
-      | + function block  :  0000000C
-  <-Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-    | Stack used          :  00000042
-
-
-  ->Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-                             CSTACK
-    | Stack used (prev) :  00000042
-  02    CdcToUart
-        | Stack used (prev) :  00000000
-        | + function block  :  0000000C
-        |  Already listed
-  02    UartToCdc
-        | Stack used (prev) :  00000000
-        | + function block  :  00000010
-        |  Already listed
-  01  DMA_ISR
-      | Stack used (prev) :  00000042
-      | + function block  :  0000000C
-  <-Sub-tree of type: Interrupt function tree that does not make
-                    : indirect calls
-    | Stack used          :  0000004E
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  03      usbSendNextPacketOnIEP0
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-          |  Already listed
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-  01  usbGetLineCoding0
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  03      usbClearOEP0ByteCount
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-          |  Already listed
-  02    usbReceiveDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-  01  usbSetLineCoding0
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-  01  usbSetControlLineState0
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  01  memcpyV
-      | Stack used (prev) :  0000004E
-      | + function block  :  00000008
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  01  memcpyDMA0
-      | Stack used (prev) :  0000004E
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000052
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  01  usbClearEndpointFeature
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetConfiguration
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetDeviceDescriptor
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetConfigurationDescriptor
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetStringDescriptor
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetInterface
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetDeviceStatus
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetInterfaceStatus
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbSendDataPacketOnEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  02    usbClearOEP0ByteCount
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbGetEndpointStatus
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallOEP0
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallEndpoint0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-  01  usbSetAddress
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallOEP0
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbSetConfiguration
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallEndpoint0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  01  usbClearDeviceFeature
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallEndpoint0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  01  usbSetDeviceFeature
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallEndpoint0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  01  usbSetEndpointFeature
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbSendZeroLengthPacketOnIEP0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  02    usbStallOEP0
-        | Stack used (prev) :  00000000
-        | + function block  :  00000004
-        |  Already listed
-  01  usbSetInterface
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  02    usbStallEndpoint0
-        | Stack used (prev) :  0000004E
-        | + function block  :  00000004
-        |  Already listed
-  01  usbInvalidRequest
-      | Stack used (prev) :  00000052
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000056
-
-
-  ->Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-                             CSTACK
-    | Stack used (prev) :  0000004E
-  01  memset
-      | Stack used (prev) :  0000004E
-      | + function block  :  00000004
-  <-Sub-tree of type: Indirectly called function tree that does not make
-                    : indirect calls (Is not an interrupt and is not flagged
-                    : as not overlayable)
-    | Stack used          :  00000052
-
-
-  ->Sub-tree of type: Function tree
-                             CSTACK
-    | Stack used (prev) :  00000056
-  02    Init_TimerA2
-        | Stack used (prev) :  00000056
-        | + function block  :  00000004
-  03      USB_connectionInfo
-          | Stack used (prev) :  00000056
-          | + function block  :  00000004
-  03      USB_connect
-          | Stack used (prev) :  00000000
-          | + function block  :  00000004
-          |  Already listed
-  03      USB_reset
-          | Stack used (prev) :  00000004
-          | + function block  :  00000006
-          |  Already listed
-  03      USB_setEnabledEvents
-          | Stack used (prev) :  00000056
-          | + function block  :  00000004
-  03      USB_enable
-          | Stack used (prev) :  00000004
-          | + function block  :  00000008
-          |  Already listed
-  05          Get_TLV_Info
-              | Stack used (prev) :  00000056
-              | + function block  :  00000008
-  04        USB_InitSerialStringDescriptor
-            | Stack used (prev) :  0000005E
-            | + function block  :  0000000A
-  04        USB_initMemcpy
-            | Stack used (prev) :  00000056
-            | + function block  :  00000004
-  03      USB_init
-          | Stack used (prev) :  00000068
-          | + function block  :  00000008
-  02    ConfigUSB
-        | Stack used (prev) :  00000070
-        | + function block  :  00000004
-  03      InitUart0
-          | Stack used (prev) :  00000004
-          | + function block  :  00000006
-          |  Already listed
-  03      Port_Mapping
-          | Stack used (prev) :  00000056
-          | + function block  :  00000004
-  03      Init_Ports
-          | Stack used (prev) :  00000056
-          | + function block  :  00000004
-  04        Init_FLL
-            | Stack used (prev) :  00000056
-            | + function block  :  00000006
-  03      Init_Clock
-          | Stack used (prev) :  0000005C
-          | + function block  :  00000004
-  04        SetVCoreDown
-            | Stack used (prev) :  00000056
-            | + function block  :  0000000C
-  04        SetVCoreUp
-            | Stack used (prev) :  00000056
-            | + function block  :  00000008
-  03      SetVCore
-          | Stack used (prev) :  00000062
-          | + function block  :  00000008
-  02    Init_StartUp
-        | Stack used (prev) :  0000006A
-        | + function block  :  00000004
-  01  main
-      | Stack used (prev) :  00000074
-      | + function block  :  00000004
-  <-Sub-tree of type: Function tree
-    | Stack used          :  00000078
-
-
-  ->Sub-tree of type: Function tree
-                             CSTACK
-    | Stack used (prev) :  00000078
-  01  exit
-      | Stack used (prev) :  00000078
-      | + function block  :  00000004
-  <-Sub-tree of type: Function tree
-    | Stack used          :  0000007C
-
-
-  ->Sub-tree of type: Function tree
-                             CSTACK
-    | Stack used (prev) :  0000007C
-  01  __data16_memzero
-      | Stack used (prev) :  0000007C
-      | + function block  :  00000004
-  <-Sub-tree of type: Function tree
-    | Stack used          :  00000080
-
-
+Module               CODE      DATA      CONST
+------               ----      ----      -----
+                    (Rel)  (Rel)  (Abs)  (Rel)
+?IndCallR9              4
+?__exit                 4
+?_exit                  4
+?cstart                24
+?exit                   4
+?memset                18
+?memzero               18
+?reset_vector           2
+HAL_FLASH                             4
+HAL_PMAP                              2
+  + shared                            2
+HAL_PMM               454            10
+HAL_TLV                80
+HAL_UCS               284             6
+  + shared                            8
+UsbCdc                316     34      1
+  + shared                            4
+UsbIsr                570             2
+  + shared            104            10
+  + common
+descriptors                                501
+dma                   148      8     12
+  + shared                           28
+initMCU               218            18
+  + shared                            8
+main                   90             4
+  + common            124
+timer                  46             6
+  + common             90
+uart                1 912  1 350     11     36
+  + common            102
+usb                 2 074     67    150
+usbEventHandling       48
+N/A (command line)           160
+N/A (alignment)
+----------          -----  -----    ---    ---
+Total:              6 318  1 619    286    537
+  + common            124
 
 
                 ****************************************
@@ -3177,7 +2484,7 @@ CSTACK                                 3360 - 33FF              A0   rel    1
 DATA16_C                               A000 - A218             219   rel    1
 CSTART                                 A21A - A231              18   rel    1
 ISR_CODE                               A232 - A3BB             18A   rel    1
-<CODE> 1                               A3BC - BAA7            16EC   rel    1
+<CODE> 1                               A3BC - BAC5            170A   rel    1
 INTVEC                                 FF80 - FFFB              7C   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -3187,7 +2494,7 @@ RESET                                  FFFE - FFFF               2   rel    1
                 *                                      *
                 ****************************************
 
- 6 412 bytes of CODE  memory
+ 6 442 bytes of CODE  memory
  1 619 bytes of DATA  memory (+ 286 absolute )
    537 bytes of CONST memory
 

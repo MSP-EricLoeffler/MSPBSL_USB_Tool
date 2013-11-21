@@ -359,9 +359,10 @@ BYTE USB_enable()
     XT2_Start(XT2DRIVE_3); 
     USBPLLDIVB = USB_XT_FREQ;               // Settings desired frequency
 
+    // Note, USPCS0 is not supported in F5xx/F6xx anymore. XT is selected by default depending on the device
     if (USB_PLL_XT == 2)
     {
-        USBPLLCTL = UPCS0 + UPFDEN + UPLLEN;// Select XT2 as Ref / Select PLL for USB / Discrim. on, enable PLL
+        USBPLLCTL = UPFDEN + UPLLEN;        // Select XT2 as Ref / Select PLL for USB / Discrim. on, enable PLL
     }
     else
     {
