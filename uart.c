@@ -91,12 +91,12 @@ BYTE InitUart0(ULONG lBaudrate)
       BYTE baudIndex;
 
     #ifdef __MSP430F550x
-      //SelectPin(3,3);                         // Assign P3.3 to UCA0TXD and..
-      //SelectPin(3,4);                         // P3.4 to UCA0RXD
+      //SelectPin(3,3);                     // Assign P3.3 to UCA0TXD and..
+      //SelectPin(3,4);                     // P3.4 to UCA0RXD
       
-      SelectPin(4,4);                         // Assign P4.4 to UCA0TXD and..
+      SelectPin(4,4);                       // Assign P4.4 to UCA0TXD and..
       //SetPinOut(4,4);
-      SelectPin(4,5);                         // P4.5 to UCA0RXD
+      SelectPin(4,5);                       // P4.5 to UCA0RXD
       //SetPinOut(4,5);
       
 //      ClearPin(4,2);
@@ -106,12 +106,12 @@ BYTE InitUart0(ULONG lBaudrate)
       //SetPinOut(4,3);
       //SetPinOut(2,1);
       
-      PJDIR = BIT2+BIT1;
-      PJOUT = BIT2+BIT1;
+      PJDIR = RESET_PIN+TEST_PIN+TCK_PIN;   // Enable pins for hardware entry sequence
+      PJOUT = RESET_PIN+TEST_PIN+TCK_PIN;
       
       
       //Simple port mapping 
-      __disable_interrupt();                    // Disable Interrupts before altering Port Mapping registers
+      __disable_interrupt();                // Disable Interrupts before altering Port Mapping registers
       PMAPKEYID = PMAPKEY;
       P4MAP4 = PM_UCA0TXD;
       P4MAP5 = PM_UCA0RXD;
@@ -120,14 +120,14 @@ BYTE InitUart0(ULONG lBaudrate)
       
     #endif 
     #ifdef __MSP430F563x_F663x
-      SelectPin(2,0);                         // Assign P2.0 to UCA0TXD and..
-      SelectPin(2,1);                         // P2.1 to UCA0RXD
+      SelectPin(2,0);                       // Assign P2.0 to UCA0TXD and..
+      SelectPin(2,1);                       // P2.1 to UCA0RXD
     #endif 
       
 
       // configure USCI_A0 UART
-      UCA0CTL1 |= UCSWRST;                    // **Put state machine in reset**
-      UCA0CTL1 |= UCSSEL__SMCLK;              // SMCLK
+      UCA0CTL1 |= UCSWRST;                  // **Put state machine in reset**
+      UCA0CTL1 |= UCSSEL__SMCLK;            // SMCLK
       UCA0CTL0 = UCPEN+UCPAR;
 
       switch(lBaudrate)
